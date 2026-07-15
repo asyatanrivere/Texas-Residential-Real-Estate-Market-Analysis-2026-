@@ -229,7 +229,7 @@ def basic_analysis(df):
     sb.heatmap(corr,annot=True,cmap="coolwarm")
     plt.title("CORRALETION HEATMAP")
     plt.tight_layout()
-    plt.savefig(f"{OUTPUT}/correlation_heatmap.png")
+    plt.savefig(f"{OUTPUT}/correlation_heatmap_analysis.png")
     plt.show()
 
 # COMPREHENSIVE ANALYSES
