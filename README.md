@@ -86,6 +86,7 @@ Bedroom and bathroom counts cluster tightly around conventional single-family co
 
 ### 5.4 Correlation Structure
 
+![Price Distribution](data%20analysis%20plots/correlation_heatmap_analysis.png)
 A Pearson correlation analysis of the numeric fields shows that `listPrice` correlates most strongly with `sqft` (r = 0.627), followed by `baths` (r = 0.505), `baths_full` (r = 0.476), and `garage` (r = 0.393). Notably, `year_built` is essentially uncorrelated with price (r = 0.036), suggesting that, in this dataset, construction age has little direct linear relationship with list price once the effect of size is not controlled for — a signal that Texas price levels are driven substantially more by scale than by vintage. `beds` and `baths_full`/`baths_full_calc` are highly collinear with each other (r > 0.88), as expected.
 
 ![Sqft vs Price](data%20analysis%20plots/total_interior_square_footage_vs_Price.png)
